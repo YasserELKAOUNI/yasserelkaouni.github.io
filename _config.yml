@@ -18,7 +18,7 @@ plugins:
 # Site Author
 author:
   name     : "Yasser EL Kaouni"
-  avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "/assets/images/bio-photo.jpeg"
   bio      : " Passionné par l'IA, le deep learning et le data engineering, je suis diplômé en mathématiques appliquées, statistiques et ML pour les données du vivant."
   location : "France"
   links:
