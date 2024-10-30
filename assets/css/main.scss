@@ -2,34 +2,42 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+@import "custom";
 
-// Your custom styles here
 body {
-  font-family: Helvetica, Arial, sans-serif;
+ font-family: "Computer Modern", Georgia, Times, serif;
+ line-height: 1.6;
+ font-size: 16px;
 }
 
 .page__content {
-  font-size: 0.8em;  // Adjust this value to make the font smaller
-  
-  p {
-    font-size: 1em;  // This ensures paragraphs use the base font size
-  }
-  
-  h1 {
-    font-size: 1.5em;
-  }
-  
-  h2 {
-    font-size: 1.3em;
-  }
-  
-  h3 {
-    font-size: 1.1em;
-  }
+ font-size: 1em;
+ 
+ p {
+   margin-bottom: 1.5em;
+ }
+ 
+ h1 {
+   font-size: 1.8em;
+   font-weight: normal;
+   color: #333;
+ }
+ 
+ h2 {
+   font-size: 1.5em;
+   font-weight: normal;
+   color: #333;
+ }
+ 
+ h3 {
+   font-size: 1.2em;
+   font-weight: normal;
+   color: #333;
+ }
 }
 
 .page__title {
-  font-size: 1.8em;  // Adjust the title size
+ font-size: 2em;
 }
