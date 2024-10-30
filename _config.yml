@@ -1,5 +1,4 @@
-minimal_mistakes_skin: "sunrise"
-locale: "fr-FR"
+minimal_mistakes_skin: "contrast"  # Change from "sunrise" to "contrast"locale: "fr-FR"
 title: "Blog de Yasser "
 email: "yasserkaouni@gmail.com"
 description: "Explorations en mathématiques, statistiques et IA appliquées aux sciences du vivant"
