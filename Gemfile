@@ -28,4 +28,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll", "~> 3.9.3"
 
 # Add webrick for Ruby 3.0 and above
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.8"gem 'jekyll-redirect-from'

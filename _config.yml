@@ -2,8 +2,13 @@ minimal_mistakes_skin: "contrast"  # Change from "sunrise" to "contrast"locale: 
 title: "Blog de Yasser "
 email: "yasserkaouni@gmail.com"
 description: "Explorations en mathématiques, statistiques et IA appliquées aux sciences du vivant"
-url: "https://yasserelkaouni.github.io"
+url: "https://blog.yasserelkaouni.github.io"
 github_username: "YasserELKAONUI"
+
+# Redirect settings
+redirect_from:
+  - https://yasserelkaouni.github.io
+
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -13,6 +18,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Site Author
 author:
