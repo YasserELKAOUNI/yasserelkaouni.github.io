@@ -8,6 +8,6 @@ header:
   actions:
     - label: "En savoir plus"
       url: "/about/"
+redirect_to: https://yasserelkaouni.github.io/blog
 ---
-
-Bienvenue sur mon blog ! 
+Bienvenue sur mon blog !
